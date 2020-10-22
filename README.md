@@ -1,8 +1,8 @@
 ### Bem-vindo 👋
 
-Estou na área de tecnologia desde 2005, com meus 12 anos de idade já gostava de “fuçar” e aprender lendo livros e com pesquisar em artigos. Atualmente estou trabalhando com desenvolvimento de softwares web e serviços de plano de fundo com ênfase em Angular (Frontend) e C# .Net Framework / .NetCore (backend e background works).
+Estou na área de tecnologia desde 2005, com meus 12 anos de idade já gostava de “fuçar” e aprender lendo livros e com artigos ou cursos. Atualmente estou trabalhando com desenvolvimento de softwares web e serviços de plano de fundo com ênfase em Angular (Frontend) e C# .Net Framework / .NetCore (backend e background works).
 
-Como desde pequeno gosto de programar ou trabalhar com tecnologia minha expertise é bem útil sejam elas em rede, infra, servidores, desktop ou linguagens de programação. 
+Como desde pequeno gosto de programar ou trabalhar com tecnologia minha expertise é bem útil sejam elas em rede, infra, servidores, desktop ou linguagens de programação.
 
 Aqui algo sobre mim:
 
