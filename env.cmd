@@ -28,6 +28,9 @@ DOSKEY ..=cd ..
 DOSKEY ls=dir /D $*
 DOSKEY l=dir /O $*
 DOSKEY r=.\node_modules\.bin\$*
+DOSKEY mv=move $*
+DOSKEY cp=copy $*
+DOSKEY cat=type $*
 
 :: Git alias shortcuts
 :: See https://github.com/GitAlias/gitalias
