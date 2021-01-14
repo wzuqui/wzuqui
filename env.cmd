@@ -25,12 +25,12 @@ IF /I x"%COMSPEC%"==x%CMDCMDLINE% (cd /D %USERPROFILE%\Desktop)
 
 DOSKEY /=cd \
 DOSKEY ..=cd ..
-DOSKEY ls=dir /D $*
+DOSKEY ls=dir /O $*
+DOSKEY ll=dir /O $*
 DOSKEY l=dir /O $*
-DOSKEY r=.\node_modules\.bin\$*
-DOSKEY mv=move $*
-DOSKEY cp=copy $*
 DOSKEY cat=type $*
+DOSKEY r=.\node_modules\.bin\$*
+DOSKEY rm=powershell rm $*
 
 :: Git alias shortcuts
 :: See https://github.com/GitAlias/gitalias
@@ -47,6 +47,7 @@ DOSKEY gl=git log $*
 DOSKEY gm=git merge $*
 DOSKEY go=git checkout $*
 DOSKEY gp=git pull $*
+DOSKEY gpp=git push $*
 DOSKEY gr=git remote $*
 DOSKEY gs=git status $*
 DOSKEY gw=git whatchanged $*
@@ -285,3 +286,14 @@ DOSKEY gss=git status --short $*
 
 ::# status with short format and showing branch and tracking info.
 DOSKEY gssb=git status --short --branch $*
+
+ECHO.
+ECHO.
+ECHO  ╔═══════════════════════════════════════════════════ Atalhos ════════════════════════════════════════════════════════╗
+ECHO  ╠══════════════════════════════════════════════════════╦═════════════════════════════════════════════════════════════╣
+ECHO  ║ cz                                                   ║                                         commitzen           ║
+ECHO  ║ ga                                                   ║                                         git add             ║
+ECHO  ║ gp                                                   ║                                         git pull            ║
+ECHO  ║ gpp                                                  ║                                         git push            ║
+ECHO  ║ gs                                                   ║                                         git status          ║
+ECHO  ╚══════════════════════════════════════════════════════╩═════════════════════════════════════════════════════════════╝
