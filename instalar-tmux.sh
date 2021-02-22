@@ -1,7 +1,7 @@
 #!/bin/bash
 apt update && apt install tmux -y
 
-tee -a << EOF
+tee -a << END
 SESSIONNAME="script"
 tmux has-session -t $SESSIONNAME &> /dev/null
 if [ $? != 0 ]
@@ -9,6 +9,6 @@ if [ $? != 0 ]
     tmux new-session -s $SESSIONNAME -n script -d
 fi
 tmux attach -t $SESSIONNAME
-EOF
+END
 
 # bash <(curl -s https://raw.githubusercontent.com/wzuqui/wzuqui/main/instalar-tmux.sh)
