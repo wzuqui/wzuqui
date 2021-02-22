@@ -10,3 +10,5 @@ if [ $? != 0 ]
 fi
 tmux attach -t $SESSIONNAME
 EOF
+
+# bash <(curl -s https://raw.githubusercontent.com/wzuqui/wzuqui/main/instalar-tmux.sh)
