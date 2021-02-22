@@ -1,7 +1,7 @@
 #!/bin/bash
 apt update && apt install tmux -y
 
-echo `
+tee -a << EOF
 SESSIONNAME="script"
 tmux has-session -t $SESSIONNAME &> /dev/null
 if [ $? != 0 ]
@@ -9,4 +9,4 @@ if [ $? != 0 ]
     tmux new-session -s $SESSIONNAME -n script -d
 fi
 tmux attach -t $SESSIONNAME
-` >> /root/.bashrc
+EOF
