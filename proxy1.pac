@@ -71,7 +71,7 @@ if (
                             shExpMatch(host,"outlookjbs.corporate.ad") ||
                             shExpMatch(host,"email.jfinvest.com.br") ||
                             shExpMatch(host,"portal.braskarne.com.br") ||							
-                            shExpMatch(host,"*.sistema.ravex.com.br")
+                            shExpMatch(host,"longopercurso.sistema.ravex.com.br")
                             )
                             { return 'DIRECT'; }
                             
