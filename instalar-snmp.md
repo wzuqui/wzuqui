@@ -35,4 +35,4 @@ psexec @lista.txt -s cmd /c "net stop snmp && net start snmp"
 
 # Ferramentas
 
-psexec baixar da microsoft
+[PsExec v2.33](https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
