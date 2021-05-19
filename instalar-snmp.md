@@ -1,3 +1,11 @@
+# GPO
+
+Criar uma GPO para configurar segue o print:
+
+![gpo](https://github.com/wzuqui/wzuqui/blob/main/gpo-snmp.jpg?raw=true)
+
+
+
 # Descobrir computadores conectados
 
 Dentro do AD rodar em um powershell adm
