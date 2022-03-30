@@ -39,6 +39,7 @@ psexec @lista.txt -s cmd /c "winrm quickconfig -quiet"
 psexec @lista.txt -s cmd /c "dism /online /add-capability /capabilityname:SNMP.Client~~~~0.0.1.0"
 psexec @lista.txt -s cmd /c "gpupdate /force"
 psexec @lista.txt -s cmd /c "net stop snmp && net start snmp"
+psexec @lista.txt -s cmd /c "query user"
 ```
 
 # Ferramentas
