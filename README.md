@@ -11,3 +11,9 @@ Aqui algo sobre mim:
 
 #### Siga-me nas minhas redes sociais:
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/willian-zuqui-470830192/)](https://www.linkedin.com/in/willian-zuqui-470830192/)
+
+## GitHub Stats
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=wzuqui&show_icons=true&theme=tokyonight" width="400" height="150"/>
+</a>
