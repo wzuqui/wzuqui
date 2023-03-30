@@ -1,0 +1,2 @@
+- [NetworkActiv AUTAPF](https://www.majorgeeks.com/files/details/networkactiv_autapf.html)
+- [Binary Viewer](https://binary-viewer.en.softonic.com/?ex=DINS-635.1)
