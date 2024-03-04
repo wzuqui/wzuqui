@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Monitoramento de VPN - Entrypoint"
 
-target_ip="10.0.0.2"  # IP que você deseja verificar
+target_ip="10.0.0.7"  # IP que você deseja verificar
 script_to_execute="./ativar_vpn.sh"  # Caminho para o script a ser executado
 
 while true; do
