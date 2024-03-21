@@ -4,6 +4,7 @@ ping 10.0.0.7 -c 1
 
 ip route add 10.1.0.0/16 via 10.0.0.20
 ip route add 10.90.0.0/15 via 10.0.0.20
+ip route add 10.100.201.1/32 via 10.0.0.20
 ping 10.1.254.198 -c 1
 
 
